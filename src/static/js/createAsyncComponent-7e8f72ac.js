@@ -1,0 +1,1 @@
+import{dq as e,j as o,bf as n,dr as a}from"./index-920db443.js";function s(s,t={}){const{size:i="small",delay:r=100,timeout:d=3e4,loading:l=!1,retry:m=!0}=t;return e({loader:s,loadingComponent:l?o(n,{spinning:!0,size:i},null):void 0,timeout:d,delay:r,onError:m?(e,o,n,a)=>{e.message.match(/fetch/)&&a<=3?o():n()}:a})}export{s as c};
